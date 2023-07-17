@@ -3,6 +3,10 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 .btn-primery {
     padding: 20px 25px;
@@ -31,7 +35,7 @@
 
 /*header section*/
 header {
-    background-color: rgb(240, 123, 201);
+    background-color: rgb(236, 186, 220);
     padding: 50px 250px;
 }
 
