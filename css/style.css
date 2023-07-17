@@ -135,7 +135,6 @@ nav ul li {
     padding-left: 10px;
 }
 .feature-img img{
-    margin-left: 90px;
     height: 90%;
 }
 
@@ -238,7 +237,7 @@ nav ul li {
 
     nav,
     .facts-card-container,
-    .sponser-img, .features {
+    .sponser-img {
         flex-direction: column;
     }
     .features{
@@ -248,7 +247,7 @@ nav ul li {
     }
 
     .team-container,
-    .facts-card-container {
+    .facts-card-container, .features  {
         flex-direction: column;
         flex-direction: column-reverse;
         padding-left: 10px;
