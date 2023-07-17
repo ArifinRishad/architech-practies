@@ -164,6 +164,7 @@ nav ul li {
     font-weight: 500;
     
 }
+/*Feature section end*/
 
 
 /*Facts section*/
@@ -233,8 +234,13 @@ nav ul li {
 
     nav,
     .facts-card-container,
-    .sponser-img {
+    .sponser-img, .features {
         flex-direction: column;
+    }
+    .features{
+        padding: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .team-container,
@@ -270,7 +276,7 @@ nav ul li {
         flex-direction: column;
     }
 
-    .team-container {
+    .team-container,  .features {
         flex-direction: column;
     }
 
@@ -279,6 +285,11 @@ nav ul li {
         flex-direction: column-reverse;
         margin-left: 0px;
 
+    }
+    .features{
+        padding: 10px ;
+        margin-left: 15px;
+        margin-right: 10px;
     }
 
     .team-img-container,
